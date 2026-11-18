@@ -2,7 +2,7 @@
 // against a naive SOH/'=' split-based parser using tests/bench.hpp.
 //
 // Build & run from repo root:
-//   g++ -std=c++17 -O2 -Wall -Wextra -pthread -Iinclude -Itests fix_bench.cpp -o /tmp/fix_bench && /tmp/fix_bench
+//   g++ -std=c++17 -O2 -Wall -Wextra -pthread -Iinclude -Itests tests/fix_bench.cpp -o /tmp/fix_bench && /tmp/fix_bench
 
 #include <chrono>
 #include <cmath>
